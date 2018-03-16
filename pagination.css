@@ -1,0 +1,54 @@
+#pagBox {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul{border:0; margin:0; padding:0;}
+
+#paginationBox li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+margin-right:2px;
+}
+#paginationBox a{
+border:solid 1px #9aafe5;
+margin-right:2px;
+font-size:11px;
+font-weight: bold;
+}
+#paginationBox .previous-off,
+#paginationBox .next-off {
+border:solid 1px #DEDEDE;
+color:#888888;
+display:block;
+float:left;
+font-weight:bold;
+margin-right:2px;
+padding:3px 4px;
+}
+#paginationBox .next a,
+#paginationBox .previous a {
+font-weight:bold;
+
+} 
+#paginationBox .active{
+background:#2e6ab1;
+color:#FFFFFF;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#paginationBox a:link,
+#paginationBox a:visited {
+color:#0e509e;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#paginationBox a:hover{
+border:solid 1px #0e509e
+}
